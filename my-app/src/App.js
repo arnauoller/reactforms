@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import './App.css';
-import Form from './Form';
-
-
+import CommitMessageTextArea from './CommitMessageTextArea';
+import 'antd/dist/antd.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Form/>
+        <CommitMessageTextArea/>
       </div>
     )
   }
